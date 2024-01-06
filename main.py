@@ -1,11 +1,12 @@
 from menu import Menu
 
-print("\nWelcome, this is Dash, not just a trading journal, but rather a trade planning and execution assist tool.")
+print("\nWelcome to Dash. A simple trade journal and planner to help execution.")
 print("----------------------------------------------------------------------------------------------------------")
 
 menu_tuple = ("Enter new trade",
 "View and edit strategies",
 "View and edit instruments",
+"Review statistics",
 "Save and exit (not functional, just quits.)")
 
 def main():
@@ -21,6 +22,8 @@ def main():
            case 3:
                pass
            case 4:
+               pass
+           case 5:
                break
 
 
