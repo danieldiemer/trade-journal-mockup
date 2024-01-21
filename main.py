@@ -1,6 +1,6 @@
-from menu import Menu
-from instruments import Instruments
-from strategies import Strategies
+from menu import *
+from instruments import *
+from strategies import *
 
 print("\nWelcome to Dash. A simple trade journal and planner to aid execution.")
 print("----------------------------------------------------------------------------------------------------------")
