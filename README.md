@@ -1,4 +1,9 @@
 # Trade Journal Mockup
+--Indefinitely incomplete.  I realized I keep thinking in terms of Java and the way their classes are setup.
+I am moving to write this in java.  I never learned used it enough to reinforce it and keep mixing with python.  
+I still want to come back to python in the future, it's so beautiful in it's simplicity, but for now prefer
+crazy java with all its extra setup.
+
 This project is based on the idea that got me started wanting to develop software.  I didn't like any of the existing
 trade journals, mostly because they cost upwards of $50 per month, but was frustrated with not 
 being able to do exactly what I wanted.

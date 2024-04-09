@@ -1,8 +1,24 @@
-class Strategies:
-    def __init__(self, name, menu_tuple):
-        self.name = name
-        self.menu_tuple = menu_tuple
+from menu import *
 
-    def run_strategies_menu():
-        pass
+strategy_menu_tuple = (
+    "Enter new startegy",
+    "Edit strategy",
+    "Back to Main Menu")
+
+strategy_menu = Menu("Strategy Menu", strategy_menu_tuple)
+
+class Strategies:
+
+    def strategies(self):
+        while (True):
+            user_selection = strategy_menu.get_option()
+            match user_selection:
+                case 1:
+                    pass
+                case 2:
+                    pass
+                case 3:
+                    break
+
+
 

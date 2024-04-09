@@ -5,15 +5,16 @@ from strategies import *
 print("\nWelcome to Dash. A simple trade journal and planner to aid execution.")
 print("----------------------------------------------------------------------------------------------------------")
 
-menu_tuple = (
-    "Enter new trade",
+main_menu_tuple = (
+    "Enter new trade (not functional)",
     "View and edit strategies",
     "View and edit instruments",
-    "Review statistics",
+    "Review statistics (not functional)",
     "Save and exit (not functional, just quits.)")
 
+main_menu = Menu("Main Menu", main_menu_tuple)
+
 def main():
-    main_menu = Menu("Main Menu", menu_tuple)
 
     while (True):
        user_selection = main_menu.get_option()
@@ -21,14 +22,13 @@ def main():
            case 1:
                pass
            case 2:
-               run_strategies_menu()
+               Strategies.strategies(user_selection)
            case 3:
-               run_instruments_menu()
+               Instruments.instruments(user_selection)
            case 4:
                pass
            case 5:
                break
-
 
 
 main()
