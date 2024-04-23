@@ -1,9 +1,9 @@
 # Trade Journal Mockup
 --Indefinitely incomplete.  
 
-I realized I keep thinking in terms of Java and the way their classes are setup.  I never learned used it enough to reinforce it and keep mixing with python.  I still want to come back to python in the future, it's so beautiful in it's simplicity, but for now moving on to something else.
+I got far enough into this project to realize there was something already built (Godot Engine) that already has in place a lot of what I was trying to accomplish. 
 
-I'll continue this project either in Java or Godot game engine, as it has java syntax, but has a lot of features that results in less setup from me.
+I'll continue this project using Godot game engine, a has a lot of features that results in less setup from me.
 
 This project is based on the idea that got me started wanting to develop software.  I didn't like any of the existing
 trade journals, mostly because they cost upwards of $50 per month, but was frustrated with not 
